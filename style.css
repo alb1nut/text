@@ -1,0 +1,49 @@
+
+
+.btn{
+   padding: 14px 30px;
+   border: none;
+   color: #fff;
+   background-color: rgb(1, 125, 1);
+   border-radius: 5px;
+  cursor: pointer;
+  margin-left: 50%;
+  margin-top: 50px;
+   font-size: 20px;
+   animation: slide;
+   animation-duration: 5s;
+   /* animation-direction: reverse; */
+}
+
+.btn:active{
+    transform: scale(0.95);
+}
+
+.btn:hover{
+    background-color: rgb(3, 164, 3);
+}
+
+@keyframes slide {
+    from{ margin-left: 0%; }
+    to{ margin-left: 100% ; }
+}
+
+.container{
+ display: flex;
+ width: 100%;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+
+ .box{
+height: 70px;
+width: 15%;
+border: 1px solid green;
+margin: 10px;
+/* text-align: center; */
+align-items: center;
+justify-content: center;
+display: flex;
+}
